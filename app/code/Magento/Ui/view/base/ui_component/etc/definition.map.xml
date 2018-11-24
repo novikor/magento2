@@ -251,6 +251,25 @@
             </argument>
         </schema>
     </component>
+    <component name="datetime" include="abstractSettings">
+        <schema name="current">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="options" type="options" xsi:type="converter">settings/options</item>
+                    <item name="storeTimeZone" type="string" xsi:type="xpath">settings/storeTimeZone</item>
+                    <item name="inputDateFormat" type="string" xsi:type="xpath">settings/inputDateFormat</item>
+                    <item name="outputDateFormat" type="string" xsi:type="xpath">settings/outputDateFormat</item>
+                    <item name="pickerDateTimeFormat" type="string" xsi:type="xpath">settings/pickerDateTimeFormat</item>
+                    <item name="timezoneFormat" type="string" xsi:type="xpath">settings/timezoneFormat</item>
+                    <item name="shiftedValue" type="string" xsi:type="xpath">settings/shiftedValue</item>
+                    <item name="showsTime" type="boolean" xsi:type="xpath">settings/showsTime</item>
+                    <item name="dateFormat" type="string" xsi:type="xpath">settings/dateFormat</item>
+                    <item name="timeFormat" type="string" xsi:type="xpath">settings/timeFormat</item>
+                    <item name="skipTimeZoneConversion" type="string" xsi:type="xpath">settings/skipTimeZoneConversion</item>
+                </item>
+            </argument>
+        </schema>
+    </component>
     <component name="dynamicRows" include="abstractSettings">
         <schema name="current">
             <argument name="data" xsi:type="array">

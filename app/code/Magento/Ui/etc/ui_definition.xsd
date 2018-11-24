@@ -35,6 +35,7 @@
             <xs:element name="component" type="componentComponent" />
             <xs:element name="container" type="componentContainer"/>
             <xs:element name="date" type="componentDate"/>
+            <xs:element name="datetime" type="componentDateTime"/>
             <xs:element name="dynamicRows" type="componentDynamicRows"/>
             <xs:element name="tab" type="componentTab"/>
             <xs:element name="dataSource" type="componentDataSource"/>

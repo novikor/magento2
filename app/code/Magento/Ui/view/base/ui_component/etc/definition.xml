@@ -186,6 +186,7 @@
         </settings>
     </file>
     <date class="Magento\Ui\Component\Form\Element\DataType\Date" component="Magento_Ui/js/form/element/date" template="ui/form/field"/>
+    <datetime class="Magento\Ui\Component\Form\Element\DataType\DateTime" component="Magento_Ui/js/form/element/datetime" template="ui/form/field"/>
     <boolean class="Magento\Ui\Component\Form\Element\DataType\Boolean" template="ui/form/field">
         <argument name="data" xsi:type="array">
             <item name="js_config" xsi:type="array">

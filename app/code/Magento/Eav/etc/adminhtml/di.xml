@@ -25,6 +25,10 @@
                     <item name="value" xsi:type="string">date</item>
                     <item name="label" xsi:type="string" translate="true">Date</item>
                 </item>
+                <item name="450" xsi:type="array">
+                    <item name="value" xsi:type="string">datetime</item>
+                    <item name="label" xsi:type="string" translate="true">Date and Time</item>
+                </item>
                 <item name="500" xsi:type="array">
                     <item name="value" xsi:type="string">boolean</item>
                     <item name="label" xsi:type="string" translate="true">Yes/No</item>

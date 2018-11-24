@@ -348,6 +348,7 @@ class Attribute extends \Magento\Eav\Model\Entity\Attribute\AbstractAttribute im
                 break;
 
             case 'date':
+            case 'datetime':
                 $field = 'datetime';
                 break;
 

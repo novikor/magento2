@@ -14,6 +14,7 @@
                     <textarea>textarea</textarea>
                     <texteditor>texteditor</texteditor>
                     <date>date</date>
+                    <datetime>datetime</datetime>
                     <boolean>boolean</boolean>
                     <multiselect>multiselect</multiselect>
                     <select>select</select>
