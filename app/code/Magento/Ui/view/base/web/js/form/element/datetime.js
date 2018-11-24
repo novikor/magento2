@@ -15,7 +15,7 @@ define([
         defaults: {
             options: {
                 showsTime: true
-            },
+            }
         }
     });
 });
