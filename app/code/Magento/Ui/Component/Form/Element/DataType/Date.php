@@ -28,6 +28,7 @@ class Date extends AbstractDataType
      * Wrapped component
      *
      * @var UiComponentInterface
+     * @deprecated Not used field.
      */
     protected $wrappedComponent;
 
