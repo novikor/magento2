@@ -16,9 +16,7 @@ define([
 
     return Abstract.extend({
         defaults: {
-            options: {
-                showsTime: true
-            },
+            options: {},
 
             storeTimeZone: 'UTC',
 
